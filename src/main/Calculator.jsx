@@ -90,7 +90,6 @@ export default class Calculator extends Component {
                 <Button label='0' click={this.addDigit} double/>
                 <Button label='.' click={this.addDigit} />
                 <Button label='=' click={this.setOperation} operation/>
-                {console.log(this.state.displayValue.length)}
             </div>
         )
     }
